@@ -1,0 +1,39 @@
+body
+{
+    background-image: url("./pic1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+a#submitBtn
+{
+    top: 20px;
+}
+#details
+{
+    display: none;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
+}
+#heading,#result
+{
+    text-align: center;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {left:0px; top:200px;}
+    100%  {left:0px; top:0px;}
+    
+}
+@keyframes example {
+    0%   {left:0px; top:200px;}
+    100%  {left:0px; top:0px;}
+    
+}
